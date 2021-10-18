@@ -8,3 +8,50 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+body {
+  background-image: linear-gradient(#ff9500, #ff5e3a);
+  color: #fff;
+  margin: 0;
+  line-height: 1.5;
+  display: grid;
+}
+
+.icon {
+  fill: #fff;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.125rem;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.125rem;
+  border: 2.4px solid rgba(255, 255, 255, .7);
+  padding: 1rem;
+  transition: all 250ms linear;
+}
+
+a:hover {
+  color: #ff9500;
+  background-color: #fff;
+}
+
+@media only screen and (min-width: 38rem) {
+
+  section {
+    display: flex;
+    justify-content: space-between;
+  }
+
+}
